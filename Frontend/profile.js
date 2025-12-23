@@ -1,3 +1,4 @@
+const API_BASE = "https://intern-app-cy8z.onrender.com";
 function requireSessionOrRedirect() {
   const token = localStorage.getItem("token");
   const userId = localStorage.getItem("userId");

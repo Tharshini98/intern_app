@@ -1,3 +1,4 @@
+const API_BASE = "https://intern-app-cy8z.onrender.com";
 $(function () {
   $("#loginForm").on("submit", function (e) {
     e.preventDefault();
